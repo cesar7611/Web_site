@@ -1,0 +1,11 @@
+{
+  "Crea un Media Query": {
+    "prefix": "mq",
+    "body": [
+      "@media (min-width: ${1:768}px) {",
+      "    $0",
+      "}"
+    ],
+    "description": "Crea una Media Query rápida"
+  }
+}

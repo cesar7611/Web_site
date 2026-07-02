@@ -67,6 +67,7 @@
      border-radius: .5rem;
      width: 90%;
      text-align: center;
+     border: none;
  }
 
  @media (min-width: 768px) {
@@ -81,6 +82,21 @@
      box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.54);
  }
 
+ /** Utilidades **/
+ .w-100 {
+    width: 100%;
+  }
+
+  
+  .flex { 
+display: flex;
+  }
+  .alinear-derecha { 
+    justify-content: flex-end;
+
+  }
+
+/* Navegacion principal */
  .nav-bg {
      background-color: var(--secundario);
  }
@@ -230,6 +246,15 @@
  .campo label {
      color: var(--blanco);
      font-weight: bold;
-     margin-bottom: 5rem;
+     margin-bottom: 0.8rem;
      display: block;
  }
+
+.input-text { 
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5rem;
+ }
+
+

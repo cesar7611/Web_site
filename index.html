@@ -52,6 +52,7 @@
         </div><!-- .contenido hero-->
     </section>
 
+
     <main class="contenedor sombra">
         <h2>Mis Servicios</h2>
 
@@ -60,9 +61,8 @@
             <section class="Servicio">
                 <h3>Diseño Web</h3>
                 <div class="iconos-contenedor">
-                    <div class="circulo-amarillo"></div> <!-- CORREGIDO: Guion en la clase -->
-                    <div class="iconos">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <div class="circulo-amarillo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-palette">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -72,7 +72,8 @@
                             <path d="M11.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                             <path d="M15.5 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                         </svg>
-                    </div>
+                    </div> <!-- CORREGIDO: Guion en la clase -->
+
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Deserunt dolores minus aut magnam a, obcaecati enim dolorum nam odio rerum adipisci,
@@ -83,9 +84,8 @@
             <section class="Servicio">
                 <h3>Aplicaciones Web</h3>
                 <div class="iconos-contenedor">
-                    <div class="circulo-amarillo"></div> <!-- CORREGIDO: Guion en la clase -->
-                    <div class="iconos">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <div class="circulo-amarillo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-brand-android">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -97,7 +97,7 @@
                             <path d="M9 18l0 3" />
                             <path d="M15 18l0 3" />
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-brand-apple">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -105,7 +105,7 @@
                                 d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03 -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077" />
                             <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
                         </svg>
-                    </div>
+                    </div> <!-- CORREGIDO: Guion en la clase -->
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Deserunt dolores minus aut magnam a, obcaecati enim dolorum nam odio rerum adipisci,
@@ -117,9 +117,8 @@
             <section class="Servicio">
                 <h3>E-Commerce</h3>
                 <div class="iconos-contenedor">
-                    <div class="circulo-amarillo"></div>
-                    <div class="iconos">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <div class="circulo-amarillo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-credit-card">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -143,23 +142,27 @@
         <form class="formulario">
             <fieldset>
                 <legend>Contáctanos llenando los campos</legend>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
-                </div>
 
-                <div>
-                    <label>Teléfono</label>
-                    <input type="text" placeholder="Tu Teléfono">
-                </div>
-                <div>
-                    <label>Correo</label>
-                    <input type="text" placeholder="Tu email">
-                </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea placeholder="Tu Mensaje"></textarea>
-                </div>
+                <div class="contenedor-campos">
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="campos">
+                        <label>Teléfono</label>
+                        <input type="text" placeholder="Tu Teléfono">
+                    </div>
+                    <div class="campos">
+                        <label>Correo</label>
+                        <input type="text" placeholder="Tu email">
+                    </div>
+                    <div class="campos">
+                        <label>Mensaje</label>
+                        <textarea placeholder="Tu Mensaje"></textarea>
+                    </div>
+                </div> <!-- contenedor campos -->
+
                 <div>
                     <button type="submit">Enviar</button>
                 </div>
